@@ -68,7 +68,7 @@ font-weight: 500;
 }
 .animated-title > div.text-top div {
   animation: showTopText 3s;
-  animation-delay: 0.5s;
+  animation-delay: 2s;
   animation-fill-mode: forwards;
   bottom: 0;
   transform: translate(0, 100%);
@@ -79,7 +79,7 @@ font-weight: 500;
 }
 .animated-title > div.text-bottom div {
   animation: showBottomText 1.5s;
-  animation-delay: 3.5s;
+  animation-delay: 5s;
   animation-fill-mode: forwards;
   top: 0;
   transform: translate(0, -100%);
