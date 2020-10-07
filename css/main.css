@@ -555,3 +555,6 @@ text-underline-offset: 2vh;
 	width: 100%;
 }
 
+a {
+  text-decoration: none;
+}
