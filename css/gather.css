@@ -1,0 +1,80 @@
+.main {
+  background-image: url("../photos/background3-15.png");
+  width: 100%;
+    height: 200vh;
+    background-position: right;
+    background-position-y: top;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.gather_photo {
+  width: 30vw;
+  height: 30vw;
+  background-color: #F7F7F7;
+  padding: 3vw;
+}
+
+header {
+  width: 100%;
+  background-color: WHITE;
+  position: fixed;
+}
+
+.description_section {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding: 5vw;
+}
+
+.project_description {
+  font-family: arponasans, sans-serif;
+font-weight: 300;
+font-style: normal;
+font-size: 2vh;
+color: #1D1228;
+padding-left: 5vw;
+}
+
+.projectdes_name {
+  font-family: novecento-sans-wide, sans-serif;
+font-style: normal;
+font-weight: 500;
+font-size: 4vh;
+color: #1D1228;
+margin-top: -0.7vw;
+}
+
+.fa-history:before {
+  padding-right: 15px;
+}
+
+.fa-users:before {
+  padding-right: 15px;
+}
+
+.fa-tools:before {
+  padding-right: 15px;
+}
+
+.dev_box {
+  width: 250px;
+}
+
+.dev_process {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  padding-left: 5vw;
+}
+
+.arrow_dev {
+  font-size: 5vw;
+  color: #1D1228;
+  font-family: novecento-sans-wide, sans-serif;
+font-style: normal;
+font-weight: 500;
+}
+
