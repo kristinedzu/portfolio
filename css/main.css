@@ -558,3 +558,67 @@ text-underline-offset: 2vh;
 a {
   text-decoration: none;
 }
+
+
+
+
+/* for ipad */
+
+@media only screen and (max-width: 1100px) {
+
+
+  .aboutmetext_section {
+  width: 70%;
+}
+
+.aboutme_section {
+  justify-content: center;
+}
+
+.carousel {
+  width: 70%;
+}
+
+.animated-title {
+  width: 60vw;
+  left: 40vw;
+  top: 80vh;
+}
+
+.footer_section {
+  height: 40vh;
+}
+
+
+}
+
+
+/* for phones */
+
+@media only screen and (max-width: 530px) {
+  .animated-title {
+    width: 100%;
+    left: 50%;
+  }
+}
+
+@media only screen and (max-width: 380px) {
+  .aboutme_section {
+    padding-top: 60px;
+    justify-content: space-around;
+  }
+
+  .testimonials_section {
+    height: auto;
+    justify-content: space-around;
+  }
+
+.breadcrumb_section {
+  padding: 0;
+}
+
+.breadcrumb {
+  margin: 0;
+}
+
+}
