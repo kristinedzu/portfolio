@@ -596,13 +596,22 @@ a {
 /* for phones */
 
 @media only screen and (max-width: 530px) {
+  
+  .main_section {
+    background-image: url(../photos/mainBackMobile.png);
+    background-position: center;
+  }
+
   .animated-title {
     width: 100%;
     left: 50%;
+    top: 77vh;
   }
 }
 
 @media only screen and (max-width: 380px) {
+  
+  
   .aboutme_section {
     padding-top: 60px;
     justify-content: space-around;
