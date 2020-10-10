@@ -219,7 +219,6 @@ margin-left: -15px;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  align-items: flex-start;
   width: 100%;
 }
 
@@ -566,31 +565,117 @@ a {
 
 @media only screen and (max-width: 1100px) {
 
+  .animated-title > div div {
+    font-size: 3.5vh;
+  }
 
   .aboutmetext_section {
   width: 70%;
-}
+  }
 
-.aboutme_section {
+  .aboutme_section {
   justify-content: center;
-}
+  }
 
-.carousel {
+  .carousel {
   width: 70%;
-}
+  }
 
-.animated-title {
-  width: 60vw;
+  .animated-title {
+  width: 67vw;
   left: 40vw;
   top: 80vh;
-}
+  }
 
-.footer_section {
+  .gather1 {
+  width: 80%;
+  }
+
+  .gather_hover {
+    display: none;
+  }
+
+  .footer_section {
   height: 40vh;
+  }
+
+  .projects_header {
+    font-size: 17.5vw;
+  }
+
+  .project_name {
+  padding-left: 5vw;
+  }
+
+  .FNT1 {
+  width: 60%;
+  float: right;
+  }
+
+
+  .fnt_project {
+  margin-top: 47vh;
+  }
+
+  .fntname {
+  margin-left: 28.5vw;
+  }
+
+  .bsmntname {
+    margin-left: 15vw;
+  }
+
+
+  .fnt_hover {
+    display: none;
+  }
+
+  .webdoc {
+    width: 64%;
+  }
+
+  .webdoc_project {
+    margin-top: 15vh;
+  }
+
+  .webdoc_hover {
+    display: none;
+  }
+
+  .ux {
+    width: 73%;
+    float: right;
+  }
+
+  
+
+  .ux_project {
+    margin-top: -25vh;
+    margin-bottom: 25vh;
+  }
+
+  .ux_hover {
+    display: none;
+  }
+
 }
 
 
-}
+  @media only screen and (max-width: 800px) { 
+    .fnt_project {
+      margin-top: 60vh;
+      margin-bottom: 20vh;
+      }
+
+      .webdoc_project {
+        margin-top: 0;
+      }
+
+      .ux_project {
+        margin-top: -30vh;
+      }
+  }
+
 
 
 /* for phones */
@@ -598,7 +683,7 @@ a {
 @media only screen and (max-width: 530px) {
   
   .main_section {
-    background-image: url(../photos/mainBackMobile.png);
+    background-image: url(../photos/mainBackMobile-min.png);
     background-position: center;
   }
 
@@ -607,14 +692,15 @@ a {
     left: 50%;
     top: 77vh;
   }
+
 }
 
 @media only screen and (max-width: 380px) {
   
-  
   .aboutme_section {
     padding-top: 60px;
     justify-content: space-around;
+    height: 150vw;
   }
 
   .testimonials_section {
@@ -622,12 +708,101 @@ a {
     justify-content: space-around;
   }
 
-.breadcrumb_section {
+  .breadcrumb_section {
   padding: 0;
-}
+  }
 
-.breadcrumb {
+  .breadcrumb {
   margin: 0;
+  }
+
+  .aboutmetext_section {
+    font-size: 1em;
+  }
+
+  .testimonials_text {
+    font-size: 4vw;
+  }
+
+  .gather1 {
+    width: 78%;
+  }
+
+  .FNT1 {
+    width: 73%;
+  }
+
+  .fnt_project {
+    margin-top: 520px;
+  }
+
+  .fntname {
+    margin-left: 0;
+  }
+
+  .webdoc {
+    width: 78%;
+  }
+
+  .ux {
+    margin-top: -10px;
+    margin-bottom: 0;
+  }
+
+  .bsmntname {
+    margin-left: 0;
+  }
+
+  .project_name {
+    margin: 0.83em auto;
+    padding-left: 0;
+    font-size: 3.5vh;
+  }
+
+  .testimonials_section {
+    margin-top: -650px;
+  }
+
 }
 
+
+@media only screen and (max-width: 365px) {
+  .gather1 {
+    width: 76.7%;
+  }
+
+  .webdoc {
+    width: 76.7%;
+  }
+
+  .review_info {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .review_name {
+    padding-left: 0;
+  }
+
+  .slick-dots {
+    margin-right: 0;
+  }
+
+  .aboutmetext_section {
+    font-size: 4.4vw;
+  }
+
+  .testimonials_text {
+    font-size: 4.4vw;
+  }
+}
+
+@media only screen and (max-width: 320px) {
+  .gather1 {
+    width: 69%;
+  }
+
+  .webdoc {
+    width: 68%;
+  }
 }
