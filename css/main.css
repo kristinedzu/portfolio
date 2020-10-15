@@ -559,6 +559,71 @@ a {
 }
 
 
+.back_button {
+  position: relative;	
+  position: fixed;
+	padding: 1.2vh 2vh 1vh 2vh;
+    padding-right: 2vh;
+	transition: all 500ms cubic-bezier(0.77, 0, 0.175, 1);	
+	cursor: pointer;
+	user-select: none;
+    border: none;
+    background-color: transparent;
+    font-family: novecento-sans-wide, sans-serif;
+font-style: normal;
+font-weight: 500;
+font-size: 2.5vh;
+color: #2A2D34;
+margin-top: 2vh;
+margin-left: 2vh;
+outline: none;
+
+}
+
+.back_button:before, .back_button:after {
+	content: '';
+	position: absolute;	
+	transition: inherit;
+	z-index: -1;
+}
+
+.back_button:hover {
+	color: #D0D6B3;
+	transition-delay: .30s;
+}
+
+.back_button:hover:before {
+	transition-delay: 0s;
+}
+
+.back_button:hover:after {
+    background: #57595F;
+    height: 105%;
+    transition-delay: .35s;
+}
+
+.buttonanimation:before, 
+.buttonanimation:after {
+	top: 0;
+	width: 0;
+	height: 100%;
+}
+
+.buttonanimation:before {
+    right: 0;
+	border: 1px solid #57595F;
+	border-left: 0;
+    border-right: 0;
+}
+
+.buttonanimation:after {
+	left: 0;
+}
+
+.buttonanimation:hover:before,
+.buttonanimation:hover:after {
+    width: 100%;
+}
 
 
 /* for ipad */

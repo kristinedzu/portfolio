@@ -1,0 +1,62 @@
+.personality {
+    height: 90vh;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    padding-top: 10vh;
+    padding-right: 10vh;
+}
+
+.personality_text {
+    font-family: arponasans, sans-serif;
+font-weight: 300;
+font-style: normal;
+font-size: 2vh;
+color: #1D1228;
+}
+
+.personality_div {
+    width: 45%;
+    padding-top: 15vh;
+}
+
+.personality_header {
+    font-family: novecento-sans-wide, sans-serif;
+font-style: normal;
+font-weight: 500;
+font-size: 3vh;
+color: #1D1228;
+}
+
+.personality_photo {
+    height: 70vh;
+    padding-left: 15vh;
+    padding-top: 7vh;
+}
+
+.quote {
+    height: 80vh;
+    background-image: url(../photos/sea1.png);
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.experience {
+    background-image: url("../photos/background1-08.png");
+    background-position: right;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 80vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 20vh;
+    margin-left: -30vh;
+}
+
+.experience_text {
+    width: 50vw;
+}
