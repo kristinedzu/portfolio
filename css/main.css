@@ -487,6 +487,14 @@ font-weight: 500;
 font-size: 3vh;
 }
 
+.contact {
+  font-family: novecento-sans-wide, sans-serif;
+font-style: normal;
+font-weight: 500;
+font-size: 2.1vh;
+color: #D0D6B3;
+}
+
 .contactbtn {		
 	position: relative;	
 	padding: 1.2vh 2vh 1vh 2vh;
@@ -503,8 +511,6 @@ font-size: 2.1vh;
 color: #D0D6B3;
 float: right;
 outline: none;
-text-decoration: underline;
-text-underline-offset: 2vh;
 }
 
 .contactbtn:before, .contactbtn:after {
@@ -757,6 +763,12 @@ outline: none;
     width: 100%;
     left: 50%;
     top: 77vh;
+  }
+
+  .contact {
+    font-size: 2.4vh;
+    padding-top: 2.5vh;
+    line-height: 0.5;
   }
 
 }
