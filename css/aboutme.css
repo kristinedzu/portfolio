@@ -1,4 +1,8 @@
 .personality {
+    background-image: url("../photos/background5-05.png");
+    background-position: left;
+    background-size: cover;
+    background-repeat: no-repeat;
     height: 90vh;
     display: flex;
     flex-direction: row;
@@ -30,9 +34,25 @@ color: #1D1228;
 }
 
 .personality_photo {
+    display: block;
     height: 70vh;
     padding-left: 15vh;
-    padding-top: 7vh;
+    padding-top: 10vh;
+    -webkit-animation: slide-up-fade-in ease 3s;
+    -webkit-animation-iteration-count: 1;
+    -webkit-transform-origin: 50% 50%;
+    -webkit-animation-fill-mode:forwards;
+}
+
+@keyframes slide-up-fade-in{
+    0% {
+        opacity:0.5;
+        transform:  translate(0px,10vh)  ;
+    }
+    100% {
+        opacity:1;
+        transform:  translate(0px,0px)  ;
+    }
 }
 
 .quote {
@@ -52,11 +72,140 @@ color: #1D1228;
     height: 80vh;
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     justify-content: center;
     padding-top: 20vh;
     margin-left: -30vh;
 }
 
+
 .experience_text {
     width: 50vw;
+    font-family: arponasans, sans-serif;
+font-weight: 300;
+font-style: normal;
+font-size: 2vh;
+color: #1D1228;
+}
+
+.mobile {
+    display: none;
+}
+
+#dots {
+    display: none;
+}
+
+#readMore {
+    display: none;
+}
+
+
+/* for ipad */
+
+@media only screen and (max-width: 1100px) {
+    
+
+    .experience {
+margin-left: 0;
+    }
+}
+
+@media only screen and (max-width: 1050px) {
+    
+
+    .personality {
+        flex-direction: row-reverse;
+        height: auto;
+        padding-bottom: 2vh;
+    }
+
+    .personality {
+        padding-right: 0;
+    }
+
+    .personality_div {
+        width: 80%;
+        margin: 0 auto;
+        padding-top: 0;    
+    }
+
+    .web {
+        display: none;
+    }
+
+    .mobile {
+        display: block;
+        padding-left: 0;
+        margin: 0 auto;
+        height: 115vw;
+        padding-top: 2vh;
+        padding-bottom: 2vh;
+    }
+
+    .experience_text {
+        width: 100%;
+    }
+
+    .experience {
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: center;
+        height: auto;
+        padding-top: 15vh;
+    }
+
+    .experience_section {
+        width: 70%;
+    }
+
+    #dots {
+        display: block;
+    }
+    
+    #readMore {
+        display: block;
+    }
+
+    #more {
+        display: none;
+    }
+
+    
+}
+
+/* for phones */
+
+@media only screen and (max-width: 530px) {
+
+    .experience {
+        justify-content: space-around;
+        padding-top: 8vh;
+    }
+
+}
+
+@media only screen and (max-width: 380px) {
+
+    .personality_text {
+        font-size: 4vw;
+        }
+
+        .experience_text {
+            font-size: 4vw;
+        }
+
+}
+
+
+@media only screen and (max-width: 365px) { 
+
+    .personality_text {
+        font-size: 4.4vw;
+        }
+
+        .experience_text {
+            font-size: 4.4vw;
+        }
+
 }

@@ -562,6 +562,7 @@ a {
 .back_button {
   position: relative;	
   position: fixed;
+  z-index: 2;
 	padding: 1.2vh 2vh 1vh 2vh;
     padding-right: 2vh;
 	transition: all 500ms cubic-bezier(0.77, 0, 0.175, 1);	
@@ -765,7 +766,9 @@ outline: none;
   .aboutme_section {
     padding-top: 60px;
     justify-content: space-around;
-    height: 150vw;
+    height: auto;
+      padding-bottom: 10vh;
+  
   }
 
   .testimonials_section {
@@ -782,7 +785,7 @@ outline: none;
   }
 
   .aboutmetext_section {
-    font-size: 1em;
+    font-size: 4vw;
   }
 
   .testimonials_text {
@@ -828,6 +831,10 @@ outline: none;
     margin-top: -650px;
   }
 
+  .projects_header {
+    margin-left: -7px;
+  }
+
 }
 
 
@@ -870,4 +877,5 @@ outline: none;
   .webdoc {
     width: 68%;
   }
+
 }
