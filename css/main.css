@@ -493,6 +493,12 @@ font-style: normal;
 font-weight: 500;
 font-size: 2.3vh;
 color: #D0D6B3;
+margin-top: -0.2vh;
+}
+
+.bottom_footer {
+  border-bottom: 1.8px solid #F7F7F7;
+  padding-bottom: 3.3vh;
 }
 
 .contactbtn {		
@@ -767,8 +773,6 @@ outline: none;
 
   .contact {
     font-size: 2.4vh;
-    padding-top: 2.5vh;
-    line-height: 0.5;
   }
 
 }
